@@ -116,15 +116,17 @@ table tr td:hover:before {
   }
 }
 
-/*@-webkit-keyframes fadeIn {
+@-webkit-keyframes fadeIn {
   0%, 50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
-@-o-keyframes fadeIn {
+
+/*@-o-keyframes fadeIn {
   0%, 50% {
     opacity: 0;
   }
