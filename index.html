@@ -10,75 +10,76 @@
 <body>
 
   <div class="my_social">
-      <a href="https://www.linkedin.com/in/stewart-milimu-369995168/" class="social">
-          <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
-        </a>
-      <a href="https://stewilondanga.github.io/" class="social">
-          <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
-        </a>
-      <a href="https://twitter.com/stew_ilondanga" class="social">
-          <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
-        </a>
-    </div>
+    <a href="https://www.linkedin.com/in/stewart-milimu-369995168/" class="social">
+      <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
+    </a>
+    <a href="https://stewilondanga.github.io/" class="social">
+      <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
+    </a>
+    <a href="https://twitter.com/stew_ilondanga" class="social">
+      <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
+    </a>
+  </div>
 
-    <!-- in a wrapping container used for the overall positioning of the page's content, include
+  <!-- in a wrapping container used for the overall positioning of the page's content, include
       - a container introducing the page
       - a table responsible for the bookshelf
       - a container showcasing a snippet which is connected to the particular, clicked book
     -->
 
-    <div class="container">
+  <div class="container">
 
-      <div class="container__intro">
-        <h1>CSS Layout</h1>
-        <p>Positioning HTML elements any which way</p>
-      </div>
+    <div class="container__intro">
+      <h1>CSS Layout</h1>
+      <p>Positioning HTML elements any which way</p>
+    </div>
 
-      <!--
+    <!--
         include one cell for each row, in which to show the different books
         later this will allow to rotate the entire table and have the display flipped from horizontal, one on top of the other to vertical, one next to the other
       -->
-      <table class="container__table">
-        <tr>
-          <td id="grid">
-            grid
-          </td>
-        </tr>
-        <tr>
-          <td id="flex">
-            flex
-          </td>
-        </tr>
-        <tr>
-          <td id="float">
-            float
-          </td>
-        </tr>
-        <tr>
-          <td id="table">
-            table
-          </td>
-        </tr>
-      </table>
+    <table class="container__table">
+      <tr>
+        <td id="grid">
+          grid
+        </td>
+      </tr>
+      <tr>
+        <td id="flex">
+          flex
+        </td>
+      </tr>
+      <tr>
+        <td id="float">
+          float
+        </td>
+      </tr>
+      <tr>
+        <td id="table">
+          table
+        </td>
+      </tr>
+    </table>
 
 
-      <div class="container__snippet">
-      </div>
-
-
+    <div class="container__snippet">
     </div>
+
+
+  </div>
 
   <section id="contact">
     <div class="overlay">
       <div class="containers">
 
         <h1>
-<script>
-with(new Date)c=-new Date(y=getFullYear(),m=getMonth()).getDay(x=new Date(y,++m,0).getDate(b=-1))
-h='<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 '+' '+y+'/'+m+'<tr>'+'SuMoTuWeThFrSa'.replace(/(..)/g,'<th>$1')
-while((b++>5?b=0:b)|c<x)h+=(b?'':'<tr>')+'<td>'+(++c<1|c>x?'-':c);document.write(h+'</table>')
-</script>
-</h1>
+          <script>
+            with(new Date) c = -new Date(y = getFullYear(), m = getMonth()).getDay(x = new Date(y, ++m, 0).getDate(b = -1))
+            h = '<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 ' + ' ' + y + '/' + m + '<tr>' + 'SuMoTuWeThFrSa'.replace(/(..)/g, '<th>$1')
+            while ((b++ > 5 ? b = 0 : b) | c < x) h += (b ? '' : '<tr>') + '<td>' + (++c < 1 | c > x ? '-' : c);
+            document.write(h + '</table>')
+          </script>
+        </h1>
 
       </div>
     </div>
