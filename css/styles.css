@@ -85,10 +85,11 @@ table tr td:hover {
   transform: translateY(-40px);
 }
 
-/*table tr td:hover:before {
+table tr td:hover:before {
   height: 40px;
 }
-.container__snippet pre {
+
+/*.container__snippet pre {
   background: #36416b;
   color: #fff;
   padding: 0.5rem 1.2rem;
