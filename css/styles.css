@@ -100,12 +100,13 @@ table tr td:hover:before {
   animation: fadeIn 0.5s ease-out both;
 }
 
-/*.container__snippet pre code {
+.container__snippet pre code {
   font-family: 'Ubuntu Mono', monospace;
   font-size: 1.5rem;
   line-height: 1.4;
 }
-@-moz-keyframes fadeIn {
+
+/*@-moz-keyframes fadeIn {
   0%, 50% {
     opacity: 0;
   }
