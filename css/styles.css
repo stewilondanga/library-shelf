@@ -69,7 +69,7 @@ table tr td {
   position: relative;
 }
 
-/*table tr td:before {
+table tr td:before {
   content: '';
   position: absolute;
   top: 100%;
@@ -80,7 +80,8 @@ table tr td {
   background: #fff;
   transition: all 0.5s ease-out;
 }
-table tr td:hover {
+
+/*table tr td:hover {
   transform: translateY(-40px);
 }
 table tr td:hover:before {
