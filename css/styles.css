@@ -136,16 +136,17 @@ table tr td:hover:before {
   }
 }
 
-/*@keyframes fadeIn {
+@keyframes fadeIn {
   0%, 50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
