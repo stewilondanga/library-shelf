@@ -106,15 +106,17 @@ table tr td:hover:before {
   line-height: 1.4;
 }
 
-/*@-moz-keyframes fadeIn {
+@-moz-keyframes fadeIn {
   0%, 50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
-@-webkit-keyframes fadeIn {
+
+/*@-webkit-keyframes fadeIn {
   0%, 50% {
     opacity: 0;
   }
