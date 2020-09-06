@@ -51,10 +51,11 @@ body {
   font-size: 1.4rem;
 }
 
-/*table {
+table {
   transform: rotateZ(-90deg) perspective(500px) rotateX(2deg);
 }
-table tr td {
+
+/*table tr td {
   font-size: 3.2rem;
   text-transform: uppercase;
   text-align: center;
