@@ -6,6 +6,14 @@
   padding: 0;
 }
 
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #36416b;
+  background: rgba(255, 214, 51, 0.8);
+}
+
 /*
 
 .my_social {
@@ -23,13 +31,6 @@
   height: 1.5em;
 }
 
-body {
-  min-height: 100vh;
-  width: 100%;
-  font-family: 'Montserrat', sans-serif;
-  color: #36416b;
-  background: rgba(255,214,51,0.8);
-}
 .container {
   display: flex;
   flex-direction: column;
