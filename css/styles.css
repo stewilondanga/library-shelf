@@ -36,10 +36,11 @@ body {
   margin: 1.8rem 2.4rem;
 }
 
-/*.container__intro {
+.container__intro {
   text-align: center;
 }
-.container__intro h1 {
+
+/*.container__intro h1 {
   font-size: 3rem;
   letter-spacing: 0.15rem;
   text-transform: uppercase;
