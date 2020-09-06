@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu+Mono");
 /*
 
 .my_social {
@@ -15,7 +16,6 @@
   height: 1.5em;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu+Mono");
 * {
   box-sizing: border-box;
   margin: 0;
