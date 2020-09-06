@@ -40,12 +40,13 @@ body {
   text-align: center;
 }
 
-/*.container__intro h1 {
+.container__intro h1 {
   font-size: 3rem;
   letter-spacing: 0.15rem;
   text-transform: uppercase;
 }
-.container__intro p {
+
+/*.container__intro p {
   line-height: 2;
   font-size: 1.4rem;
 }
